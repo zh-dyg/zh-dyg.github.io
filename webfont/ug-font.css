@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'ALKATIP Basma Tom';
+    src: local('ALKATIP Basma Tom'), local('ALKATIPBasmaTom'),
+        url('ALKATIPBasmaTom.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALKATIP Basma';
+    src: local('ALKATIP Basma'), local('ALKATIPBasma'),
+        url('ALKATIPBasma.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALKATIP Elipbe Tom';
+    src: local('ALKATIP Elipbe Tom'), local('ALKATIPElipbeTom'),
+        url('ALKATIPElipbeTom.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALKATIP Elipbe';
+    src: local('ALKATIP Elipbe'), local('ALKATIPElipbe'),
+        url('ALKATIPElipbe.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALKATIP Esliye';
+    src: local('ALKATIP Esliye'), local('ALKATIPEsliye'),
+        url('ALKATIPEsliye.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'ALKATIP Kitab Tom';
+    src: local('ALKATIP Kitab Tom'), local('ALKATIPKitabTom'),
+        url('ALKATIPKitabTom.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALKATIP Kitab';
+    src: local('ALKATIP Kitab'), local('ALKATIPKitab'),
+        url('ALKATIPKitab.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALKATIP Kufi';
+    src: local('ALKATIP Kufi'), local('ALKATIPKufi'),
+        url('ALKATIPKufi.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'ALKATIP Rukki';
+    src: local('ALKATIP Rukki'), local('ALKATIPRukki'),
+        url('ALKATIPRukki.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALKATIP Talik';
+    src: local('ALKATIP Talik'), local('ALKATIPTalik'),
+        url('ALKATIPTalik.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALKATIP Tor Tom';
+    src: local('ALKATIP Tor Tom'), local('ALKATIPTorTom'),
+        url('ALKATIPTorTom.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALKATIP Tor';
+    src: local('ALKATIP Tor'), local('ALKATIPTor'),
+        url('ALKATIPTor.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALKATIP Tuz Tom';
+    src: local('ALKATIP Tuz Tom'), local('ALKATIPTuzTom'),
+        url('ALKATIPTuzTom.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALKATIP Tuz';
+    src: local('ALKATIP Tuz'), local('ALKATIPTuz'),
+        url('ALKATIPTuz.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALKATIP UI';
+    src: local('ALKATIP UI'), local('ALKATIPUI'),
+        url('ALKATIPUI.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALKATIP Yazma Tom';
+    src: local('ALKATIP Yazma Tom'), local('ALKATIPYazmaTom'),
+        url('ALKATIPYazmaTom.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALKATIP Yazma';
+    src: local('ALKATIP Yazma'), local('ALKATIPYazma'),
+        url('ALKATIPYazma.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALKATIP';
+    src: local('ALKATIP'),
+        url('ALKATIP.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
