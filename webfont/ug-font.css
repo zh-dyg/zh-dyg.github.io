@@ -10,7 +10,7 @@
 @font-face {
     font-family: 'ALKATIP Basma';
     src: local('ALKATIP Basma'), local('ALKATIPBasma'),
-        url('./webfont/ALKATIPBasma.woff2') format('woff2');
+        url('ALKATIPBasma.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -19,7 +19,7 @@
 @font-face {
     font-family: 'ALKATIP Elipbe Tom';
     src: local('ALKATIP Elipbe Tom'), local('ALKATIPElipbeTom'),
-        url('./webfont/ALKATIPElipbeTom.woff2') format('woff2');
+        url('ALKATIPElipbeTom.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -28,7 +28,7 @@
 @font-face {
     font-family: 'ALKATIP Elipbe';
     src: local('ALKATIP Elipbe'), local('ALKATIPElipbe'),
-        url('./webfont/ALKATIPElipbe.woff2') format('woff2');
+        url('ALKATIPElipbe.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -37,7 +37,7 @@
 @font-face {
     font-family: 'ALKATIP Esliye';
     src: local('ALKATIP Esliye'), local('ALKATIPEsliye'),
-        url('./webfont/ALKATIPEsliye.woff2') format('woff2');
+        url('ALKATIPEsliye.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -47,7 +47,7 @@
 @font-face {
     font-family: 'ALKATIP Kitab Tom';
     src: local('ALKATIP Kitab Tom'), local('ALKATIPKitabTom'),
-        url('./webfont/ALKATIPKitabTom.woff2') format('woff2');
+        url('ALKATIPKitabTom.woff2') format('woff2');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -56,7 +56,7 @@
 @font-face {
     font-family: 'ALKATIP Kitab';
     src: local('ALKATIP Kitab'), local('ALKATIPKitab'),
-        url('./webfont/ALKATIPKitab.woff2') format('woff2');
+        url('ALKATIPKitab.woff2') format('woff2');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -65,7 +65,7 @@
 @font-face {
     font-family: 'ALKATIP Kufi';
     src: local('ALKATIP Kufi'), local('ALKATIPKufi'),
-        url('./webfont/ALKATIPKufi.woff2') format('woff2');
+        url('ALKATIPKufi.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -75,7 +75,7 @@
 @font-face {
     font-family: 'ALKATIP Rukki';
     src: local('ALKATIP Rukki'), local('ALKATIPRukki'),
-        url('./webfont/ALKATIPRukki.woff2') format('woff2');
+        url('ALKATIPRukki.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -84,7 +84,7 @@
 @font-face {
     font-family: 'ALKATIP Talik';
     src: local('ALKATIP Talik'), local('ALKATIPTalik'),
-        url('./webfont/ALKATIPTalik.woff2') format('woff2');
+        url('ALKATIPTalik.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -93,7 +93,7 @@
 @font-face {
     font-family: 'ALKATIP Tor Tom';
     src: local('ALKATIP Tor Tom'), local('ALKATIPTorTom'),
-        url('./webfont/ALKATIPTorTom.woff2') format('woff2');
+        url('ALKATIPTorTom.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -102,7 +102,7 @@
 @font-face {
     font-family: 'ALKATIP Tor';
     src: local('ALKATIP Tor'), local('ALKATIPTor'),
-        url('./webfont/ALKATIPTor.woff2') format('woff2');
+        url('ALKATIPTor.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -111,7 +111,7 @@
 @font-face {
     font-family: 'ALKATIP Tuz Tom';
     src: local('ALKATIP Tuz Tom'), local('ALKATIPTuzTom'),
-        url('./webfont/ALKATIPTuzTom.woff2') format('woff2');
+        url('ALKATIPTuzTom.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -120,7 +120,7 @@
 @font-face {
     font-family: 'ALKATIP Tuz';
     src: local('ALKATIP Tuz'), local('ALKATIPTuz'),
-        url('./webfont/ALKATIPTuz.woff2') format('woff2');
+        url('ALKATIPTuz.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -129,7 +129,7 @@
 @font-face {
     font-family: 'ALKATIP UI';
     src: local('ALKATIP UI'), local('ALKATIPUI'),
-        url('./webfont/ALKATIPUI.woff2') format('woff2');
+        url('ALKATIPUI.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -138,7 +138,7 @@
 @font-face {
     font-family: 'ALKATIP Yazma Tom';
     src: local('ALKATIP Yazma Tom'), local('ALKATIPYazmaTom'),
-        url('./webfont/ALKATIPYazmaTom.woff2') format('woff2');
+        url('ALKATIPYazmaTom.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -147,7 +147,7 @@
 @font-face {
     font-family: 'ALKATIP Yazma';
     src: local('ALKATIP Yazma'), local('ALKATIPYazma'),
-        url('./webfont/ALKATIPYazma.woff2') format('woff2');
+        url('ALKATIPYazma.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -156,7 +156,7 @@
 @font-face {
     font-family: 'ALKATIP';
     src: local('ALKATIP'),
-        url('./webfont/ALKATIP.woff2') format('woff2');
+        url('ALKATIP.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
