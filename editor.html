@@ -4,23 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPBasmaTom.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIP.woff2" crossorigin>
     <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPBasma.woff2" crossorigin>
-    <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPElipbeTom.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPBasmaTom.woff2" crossorigin>
     <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPElipbe.woff2" crossorigin>
-    <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPKitabTom.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPElipbeTom.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPEsliye.woff2" crossorigin>
     <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPKitab.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPKitabTom.woff2" crossorigin>
     <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPKufi.woff2" crossorigin>
     <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPRukki.woff2" crossorigin>
     <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPTalik.woff2" crossorigin>
-    <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPTorTom.woff2" crossorigin>
     <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPTor.woff2" crossorigin>
-    <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPTuzTom.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPTorTom.woff2" crossorigin>
     <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPTuz.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPTuzTom.woff2" crossorigin>
     <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPUI.woff2" crossorigin>
-    <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPYazmaTom.woff2" crossorigin>
     <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPYazma.woff2" crossorigin>
-    <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIP.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPYazmaTom.woff2" crossorigin>
+    
+    <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPGezit.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPGezitTom.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPJurnal.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPJurnalTom.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPOsmaniy.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="./webfont/ALKATIPOsmaniyTom.woff2" crossorigin>
     <link rel="stylesheet" href="./webfont/ug-font.css">
     <title>Text Editor</title>
     <style>
@@ -133,24 +141,30 @@
 
             <div class="toolbar-group">
                 <select id="font-family" onchange="changeFontFamily(this.value)">
-                    <option value="ALKATIP, sans-serif" style="font-family: ALKATIP, sans-serif;" selected>ALKATIP</option>
-                    <option value="ALKATIP Basma, sans-serif" style="font-family: 'ALKATIP Basma', sans-serif;">ALKATIP Basma</option>
-                    <option value="ALKATIP Basma Tom, sans-serif" style="font-family: 'ALKATIP Basma Tom', sans-serif;">ALKATIP Basma Tom</option>
-                    <option value="ALKATIP Elipbe, sans-serif" style="font-family: 'ALKATIP Elipbe', sans-serif;">ALKATIP Elipbe</option>
-                    <option value="ALKATIP Elipbe Tom, sans-serif" style="font-family: 'ALKATIP Elipbe Tom', sans-serif;">ALKATIP Elipbe Tom</option>
-                    <option value="ALKATIP Esliye, sans-serif" style="font-family: 'ALKATIP Esliye', sans-serif;">ALKATIP Esliye</option>
-                    <option value="ALKATIP Kitab, sans-serif" style="font-family: 'ALKATIP Kitab', sans-serif;">ALKATIP Kitab</option>
-                    <option value="ALKATIP Kitab Tom, sans-serif" style="font-family: 'ALKATIP Kitab Tom', sans-serif;">ALKATIP Kitab Tom</option>
-                    <option value="ALKATIP Kufi, sans-serif" style="font-family: 'ALKATIP Kufi', sans-serif;">ALKATIP Kufi</option>
-                    <option value="ALKATIP Rukki, sans-serif" style="font-family: 'ALKATIP Rukki', sans-serif;">ALKATIP Rukki</option>
-                    <option value="ALKATIP Talik, sans-serif" style="font-family: 'ALKATIP Talik', sans-serif;">ALKATIP Talik</option>
-                    <option value="ALKATIP Tor, sans-serif" style="font-family: 'ALKATIP Tor', sans-serif;">ALKATIP Tor</option>
-                    <option value="ALKATIP Tor Tom, sans-serif" style="font-family: 'ALKATIP Tor Tom', sans-serif;">ALKATIP Tor Tom</option>
-                    <option value="ALKATIP Tuz, sans-serif" style="font-family: 'ALKATIP Tuz', sans-serif;">ALKATIP Tuz</option>
-                    <option value="ALKATIP Tuz Tom, sans-serif" style="font-family: 'ALKATIP Tuz Tom', sans-serif;">ALKATIP Tuz Tom</option>
-                    <option value="ALKATIP Yazma, sans-serif" style="font-family: 'ALKATIP Yazma', sans-serif;">ALKATIP Yazma</option>
-                    <option value="ALKATIP Yazma Tom, sans-serif" style="font-family: 'ALKATIP Yazma Tom', sans-serif;">ALKATIP Yazma Tom</option>
-                    <option value="ALKATIP UI, sans-serif" style="font-family: 'ALKATIP UI', sans-serif;">ALKATIP UI</option>
+                    <option value="'ALKATIP', sans-serif" style="font-family: ALKATIP, sans-serif;" selected>ALKATIP</option>
+                    <option value="'ALKATIP Basma', sans-serif" style="font-family: 'ALKATIP Basma', sans-serif;">ALKATIP Basma</option>
+                    <option value="'ALKATIP Basma Tom', sans-serif" style="font-family: 'ALKATIP Basma Tom', sans-serif;">ALKATIP Basma Tom</option>
+                    <option value="'ALKATIP Elipbe', sans-serif" style="font-family: 'ALKATIP Elipbe', sans-serif;">ALKATIP Elipbe</option>
+                    <option value="'ALKATIP Elipbe Tom', sans-serif" style="font-family: 'ALKATIP Elipbe Tom', sans-serif;">ALKATIP Elipbe Tom</option>
+                    <option value="'ALKATIP Esliye', sans-serif" style="font-family: 'ALKATIP Esliye', sans-serif;">ALKATIP Esliye</option>
+                    <option value="'ALKATIP Kitab', sans-serif" style="font-family: 'ALKATIP Kitab', sans-serif;">ALKATIP Kitab</option>
+                    <option value="'ALKATIP Kitab Tom', sans-serif" style="font-family: 'ALKATIP Kitab Tom', sans-serif;">ALKATIP Kitab Tom</option>
+                    <option value="'ALKATIP Kufi', sans-serif" style="font-family: 'ALKATIP Kufi', sans-serif;">ALKATIP Kufi</option>
+                    <option value="'ALKATIP Rukki', sans-serif" style="font-family: 'ALKATIP Rukki', sans-serif;">ALKATIP Rukki</option>
+                    <option value="'ALKATIP Talik', sans-serif" style="font-family: 'ALKATIP Talik', sans-serif;">ALKATIP Talik</option>
+                    <option value="'ALKATIP Tor', sans-serif" style="font-family: 'ALKATIP Tor', sans-serif;">ALKATIP Tor</option>
+                    <option value="'ALKATIP Tor Tom', sans-serif" style="font-family: 'ALKATIP Tor Tom', sans-serif;">ALKATIP Tor Tom</option>
+                    <option value="'ALKATIP Tuz', sans-serif" style="font-family: 'ALKATIP Tuz', sans-serif;">ALKATIP Tuz</option>
+                    <option value="'ALKATIP Tuz Tom', sans-serif" style="font-family: 'ALKATIP Tuz Tom', sans-serif;">ALKATIP Tuz Tom</option>
+                    <option value="'ALKATIP Yazma', sans-serif" style="font-family: 'ALKATIP Yazma', sans-serif;">ALKATIP Yazma</option>
+                    <option value="'ALKATIP Yazma Tom', sans-serif" style="font-family: 'ALKATIP Yazma Tom', sans-serif;">ALKATIP Yazma Tom</option>
+                    <option value="'ALKATIP UI', sans-serif" style="font-family: 'ALKATIP UI', sans-serif;">ALKATIP UI</option>
+                    <option value="'ALKATIP Gezit', sans-serif" style="font-family: 'ALKATIP Gezit', sans-serif;">ALKATIP Gezit</option>
+                    <option value="'ALKATIP Gezit Tom', sans-serif" style="font-family: 'ALKATIP Gezit Tom', sans-serif;">ALKATIP Gezit Tom</option>
+                    <option value="'ALKATIP Jurnal', sans-serif" style="font-family: 'ALKATIP Jurnal', sans-serif;">ALKATIP Jurnal</option>
+                    <option value="'ALKATIP Jurnal Tom', sans-serif" style="font-family: 'ALKATIP Jurnal Tom', sans-serif;">ALKATIP Jurnal Tom</option>
+                    <option value="'ALKATIP Osmaniy', sans-serif" style="font-family: 'ALKATIP Osmaniy Tom', sans-serif;">ALKATIP Osmaniy</option>
+                    <option value="'ALKATIP Osmaniy Tom', sans-serif" style="font-family: 'ALKATIP Osmaniy Tom', sans-serif;">ALKATIP Osmaniy Tom</option>
                     
                     <option value="Arial, sans-serif" style="font-family: Arial, sans-serif;">Arial</option>
                     <option value="Times New Roman, serif" style="font-family: 'Times New Roman', serif;">Times New
