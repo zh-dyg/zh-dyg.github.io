@@ -8,9 +8,27 @@
 }
 
 @font-face {
+    font-family: 'ALKATIP Elipbe';
+    src: local('ALKATIP Elipbe'), local('ALKATIPElipbe'),
+        url('ALKATIPElipbe.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'ALKATIP Basma';
     src: local('ALKATIP Basma'), local('ALKATIPBasma'),
         url('ALKATIPBasma.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALKATIP Gezit Tom';
+    src: local('ALKATIP Gezit Tom'), local('ALKATIPGezitTom'),
+        url('ALKATIPGezitTom.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -26,11 +44,20 @@
 }
 
 @font-face {
-    font-family: 'ALKATIP Elipbe';
-    src: local('ALKATIP Elipbe'), local('ALKATIPElipbe'),
-        url('ALKATIPElipbe.woff2') format('woff2');
+    font-family: 'ALKATIP Jurnal Tom';
+    src: local('ALKATIP Jurnal Tom'), local('ALKATIPJurnalTom'),
+        url('ALKATIPJurnalTom.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALKATIP Gezit';
+    src: local('ALKATIP Gezit'), local('ALKATIPGezit'),
+        url('ALKATIPGezit.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
     font-display: swap;
 }
 
@@ -43,6 +70,14 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'ALKATIP Jurnal';
+    src: local('ALKATIP Jurnal'), local('ALKATIPJurnal'),
+        url('ALKATIPJurnal.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 @font-face {
     font-family: 'ALKATIP Kitab Tom';
@@ -71,11 +106,28 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'ALKATIP Osmaniy';
+    src: local('ALKATIP Osmaniy'), local('ALKATIPOsmaniy'),
+        url('ALKATIPOsmaniy.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 @font-face {
     font-family: 'ALKATIP Rukki';
     src: local('ALKATIP Rukki'), local('ALKATIPRukki'),
         url('ALKATIPRukki.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ALKATIP Osmaniy Tom';
+    src: local('ALKATIP Osmaniy Tom'), local('ALKATIPOsmaniyTom'),
+        url('ALKATIPOsmaniyTom.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -118,18 +170,18 @@
 }
 
 @font-face {
-    font-family: 'ALKATIP Tuz';
-    src: local('ALKATIP Tuz'), local('ALKATIPTuz'),
-        url('ALKATIPTuz.woff2') format('woff2');
+    font-family: 'ALKATIP UI';
+    src: local('ALKATIP UI'), local('ALKATIPUI'),
+        url('ALKATIPUI.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'ALKATIP UI';
-    src: local('ALKATIP UI'), local('ALKATIPUI'),
-        url('ALKATIPUI.woff2') format('woff2');
+    font-family: 'ALKATIP';
+    src: local('ALKATIP'),
+        url('ALKATIP.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -145,18 +197,18 @@
 }
 
 @font-face {
-    font-family: 'ALKATIP Yazma';
-    src: local('ALKATIP Yazma'), local('ALKATIPYazma'),
-        url('ALKATIPYazma.woff2') format('woff2');
+    font-family: 'ALKATIP Tuz';
+    src: local('ALKATIP Tuz'), local('ALKATIPTuz'),
+        url('ALKATIPTuz.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'ALKATIP';
-    src: local('ALKATIP'),
-        url('ALKATIP.woff2') format('woff2');
+    font-family: 'ALKATIP Yazma';
+    src: local('ALKATIP Yazma'), local('ALKATIPYazma'),
+        url('ALKATIPYazma.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
